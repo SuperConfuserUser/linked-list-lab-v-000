@@ -1,3 +1,3 @@
-function getName(node) {
-  return node.name;
+function getName(cashier) {
+  return cashier.name;
 }
