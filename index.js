@@ -44,4 +44,9 @@ function insertNodeAt(index, link, linkedList, collection) {
   }
 }
 
-function deleteNodeAt()
+function deleteNodeAt(index, linkedList, collection) {
+  const prevNode = nodeAt(index - 1, linkedList, collection);
+  const nextAddress = addressAt(index, linkedList, collection);
+  
+  prevNode.next = nextAddress;
+}
