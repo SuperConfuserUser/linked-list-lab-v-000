@@ -5,3 +5,7 @@ function getName(node) {
 function headNode(node, collection) {
   return collection[node];
 }
+
+function next(node, collection) {
+  return [node, collection];
+} 
