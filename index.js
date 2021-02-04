@@ -32,3 +32,5 @@ function indexAt(node, collection, linkedList) {
   }
   return index;
 }
+
+insertNodeAt()
