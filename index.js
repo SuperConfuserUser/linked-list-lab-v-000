@@ -33,4 +33,6 @@ function indexAt(node, collection, linkedList) {
   return index;
 }
 
-insertNodeAt()
+insertNodeAt(index, address, collection, linkedList) {
+  
+}
