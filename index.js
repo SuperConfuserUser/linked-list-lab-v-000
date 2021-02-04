@@ -10,6 +10,6 @@ function next(node, collection) {
   return collection[node.next];
 }
 
-function nodeAt(index, collection) {
+function nodeAt(index, head, collection) {
   return collection;
 }
