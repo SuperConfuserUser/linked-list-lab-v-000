@@ -8,4 +8,8 @@ function headNode(node, collection) {
 
 function next(node, collection) {
   return collection[node.next];
-} 
+}
+
+function nodeAt(index, collection) {
+  return index;
+}
