@@ -11,5 +11,5 @@ function next(node, collection) {
 }
 
 function nodeAt(index, head, collection) {
-  return collection;
+  return [index, head];
 }
