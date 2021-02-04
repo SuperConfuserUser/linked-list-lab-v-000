@@ -18,4 +18,6 @@ function nodeAt(index, head, collection) {
   return node;
 }
 
-function addressAt()
+function addressAt(index, head, collection) {
+  
+}
