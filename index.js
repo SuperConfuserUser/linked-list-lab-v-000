@@ -1,7 +1,7 @@
-function getName(cashier) {
-  return cashier.name;
+function getName(node) {
+  return node.name;
 }
 
-function headNode(collection) {
-  return collection;
+function headNode(node) {
+  return collection[node];
 }
