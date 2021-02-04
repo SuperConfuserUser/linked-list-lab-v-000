@@ -33,6 +33,6 @@ function indexAt(node, collection, linkedList) {
   return index;
 }
 
-insertNodeAt(index, address, collection, linkedList) {
-  
+insertNodeAt(index, address, linkedList, collection) {
+  const newNode = collection[address];
 }
