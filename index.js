@@ -25,4 +25,4 @@ function addressAt(index, head, collection) {
   return nodeAt(index - 1, head, collection).next;
 }
 
-function indexAt()
+function indexAt(node, collection, linkedList)
