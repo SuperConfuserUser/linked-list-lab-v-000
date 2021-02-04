@@ -13,7 +13,7 @@ function next(node, collection) {
 function nodeAt(index, head, collection) {
   return [index, head];
   let node = headNode(head, collection);
-  for (let i = 0; i < index, i++) {
+  for (let i = 0; i < index; i++) {
     node = next(node, collection);
   }
   return node;
