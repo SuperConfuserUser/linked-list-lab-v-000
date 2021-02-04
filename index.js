@@ -7,5 +7,5 @@ function headNode(node, collection) {
 }
 
 function next(node, collection) {
-  return collection[node];
+  return node;
 } 
