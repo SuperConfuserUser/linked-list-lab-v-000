@@ -39,5 +39,7 @@ function insertNodeAt(index, link, linkedList, collection) {
   const nextAddress = addressAt(index, linkedList, collection);
   
   newNode.next = nextAddress;
-  prevNode && prevNode.next = link;
+  if (prevNode) {
+    prevNode.next = link;
+  }
 }
