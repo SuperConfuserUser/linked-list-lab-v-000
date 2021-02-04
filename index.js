@@ -2,7 +2,7 @@ function getName(node) {
   return node.name;
 }
 
-function headNode(node, collection) {
+function headNode(link, collection) {
   return collection[node];
 }
 
@@ -33,6 +33,8 @@ function indexAt(node, collection, linkedList) {
   return index;
 }
 
-insertNodeAt(index, address, linkedList, collection) {
-  const newNode = collection[address];
+insertNodeAt(index, link, linkedList, collection) {
+  const newNode = collection[link];
+  
+  return newNode;
 }
