@@ -43,3 +43,5 @@ function insertNodeAt(index, link, linkedList, collection) {
     prevNode.next = link;
   }
 }
+
+function deleteNodeAt()
