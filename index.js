@@ -17,3 +17,5 @@ function nodeAt(index, head, collection) {
   }
   return node;
 }
+
+function addressAt()
