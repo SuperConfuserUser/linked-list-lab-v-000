@@ -50,7 +50,6 @@ function deleteNodeAt(index, linkedList, collection) {
   const nextAddress = addressAt(index + 1, linkedList, collection) || null;
   
   if (prevNode) {
-    
+    prevNode.next = nextAddress;
   }
-  prevNode.next = nextAddress;
 }
