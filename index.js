@@ -3,7 +3,7 @@ function getName(node) {
 }
 
 function headNode(link, collection) {
-  return collection[node];
+  return collection[link];
 }
 
 function next(node, collection) {
