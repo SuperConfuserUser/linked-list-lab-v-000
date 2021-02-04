@@ -10,19 +10,25 @@ function next(node, collection) {
   return collection[node.next];
 }
 
-function nodeAt(index, head, collection) {
-  let node = headNode(head, collection);
+function nodeAt(index, linkedList, collection) {
+  let node = headNode(linkedList, collection);
   for (let i = 0; i < index; i++) {
     node = next(node, collection);
   }
   return node;
 }
 
-function addressAt(index, head, collection) {
+function addressAt(index, linkedList, collection) {
   if (index === 0) {
-    return head;
+    return linkedList;
   }
-  return nodeAt(index - 1, head, collection).next;
+  return nodeAt(index - 1, linkedList, collection).next;
 }
 
-function indexAt(node, collection, linkedList)
+function indexAt(node, collection, linkedList) {
+  let index = 0;
+  while (nodeAt(index, linkedList, collection) !== node) {
+    index++;
+  }
+  return index;
+}
