@@ -3,5 +3,5 @@ function getName(node) {
 }
 
 function headNode(node) {
-  return collection[node];
+  return node;
 }
