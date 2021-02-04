@@ -1,3 +1,3 @@
 function getName(node) {
-  return node;
+  return node.name;
 }
