@@ -19,5 +19,8 @@ function nodeAt(index, head, collection) {
 }
 
 function addressAt(index, head, collection) {
-  return nodeAt(index - 1, head, collection);
+  if (index === 0) {
+    return head;
+  }
+  return nodeAt(index - 1, head, collection).next;
 }
